@@ -1,0 +1,63 @@
+/* 전체 페이지 스타일 */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333; /* 전체 텍스트 색상 지정 */
+	background-color: #fff; /* 전체 배경색 지정 */
+}
+
+/* 헤더 스타일 */
+header {
+	background-color: #a06ee1; /* 헤더 배경색 지정 */
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+/* 섹션 스타일 */
+section {
+	padding: 20px;
+	margin: 20px 0;
+	background-color: #f4f4f4; /* 섹션 배경색 지정 */
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+/* 프로젝트 목록 스타일 */
+#projects ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#projects li {
+	margin-bottom: 10px;
+}
+
+#projects h3 {
+	margin-top: 0;
+	color: #a06ee1; /* 제목 색상 지정 */
+}
+
+/* 기술 스택 스타일 */
+#skills ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#skills li {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	background-color: #a06ee1; /* 기술 스택 배경색 지정 */
+	color: white;
+	border-radius: 5px;
+}
+
+/* 푸터 스타일 */
+footer {
+	background-color: #a06ee1; /* 푸터 배경색 지정 */
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
